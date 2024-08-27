@@ -1,0 +1,79 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #007bff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #343a40;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.event-list {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-list h2 {
+  margin-top: 0;
+}
+
+.event-list p {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.event-list a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.event-list a:hover {
+  text-decoration: underline;
+}
